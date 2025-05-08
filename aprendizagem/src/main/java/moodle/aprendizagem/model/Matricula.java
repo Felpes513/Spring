@@ -1,4 +1,4 @@
-package model;
+package moodle.aprendizagem.model;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

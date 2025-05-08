@@ -1,9 +1,9 @@
-package service;
+package moodle.aprendizagem.service;
 
-import model.Usuario;
+import moodle.aprendizagem.model.Usuario;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import repository.UsuarioRepository;
+import moodle.aprendizagem.repository.UsuarioRepository;
 
 import java.util.List;
 import java.util.Optional;

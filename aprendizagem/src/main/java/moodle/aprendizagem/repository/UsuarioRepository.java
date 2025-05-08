@@ -1,6 +1,6 @@
-package repository;
+package moodle.aprendizagem.repository;
 
-import model.Usuario;
+import moodle.aprendizagem.model.Usuario;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

@@ -1,6 +1,6 @@
-package repository;
+package moodle.aprendizagem.repository;
 
-import model.Curso;
+import moodle.aprendizagem.model.Curso;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
