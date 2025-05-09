@@ -8,8 +8,9 @@ import moodle.aprendizagem.service.UsuarioService;
 import java.util.List;
 import java.util.Optional;
 
+@CrossOrigin(origins = "*")
 @RestController
-@RequestMapping("/projeto/v1/usuarios") // Plural aqui!
+@RequestMapping("/projeto/v1/usuarios")
 public class UsuarioController {
 
     @Autowired
